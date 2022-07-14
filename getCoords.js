@@ -5,7 +5,7 @@ import { addCurrentData } from "/addCurrentData.js";
 
 const myAPIKey = config.myAPIKey;
 console.log(myAPIKey);
-const baseGeoUrl = 'http://api.openweathermap.org/geo/1.0/direct';
+const baseGeoUrl = 'https://api.openweathermap.org/geo/1.0/direct';
 const baseOneCallUrl = 'https://api.openweathermap.org/data/2.5/onecall';
 
 // use a known location for now 'NYC, NY'
