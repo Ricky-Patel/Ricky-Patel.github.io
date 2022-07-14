@@ -43,6 +43,8 @@ const getCityLongLat = async () => {
         }
     } catch(error) {
         console.log(error);
+        alert('Please enter a valid City, State combination');
+
     }
 }
 
