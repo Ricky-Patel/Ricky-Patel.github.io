@@ -1,9 +1,11 @@
 import { addDailyCards } from "/addDailyData.js";
 import { addHourlyCards } from "/addHourlyData.js";
 import { addCurrentData } from "/addCurrentData.js";
+import { config } from "/config.js";
 // import { getLocation } from "./getUserLocation.js"; not sure if needed
 
 const myAPIKey = config.myAPIKey;
+console.log(myAPIKey);
 const baseGeoUrl = 'http://api.openweathermap.org/geo/1.0/direct';
 const baseOneCallUrl = 'https://api.openweathermap.org/data/2.5/onecall';
 
