@@ -7,8 +7,8 @@ export function addCurrentData(weatherData, city, stateCode, userAddress) {
     const divWeatherDescription = document.getElementById("weather-description");
     const divCurrentIcon = document.getElementById('current-weather-icon');
 
-
-    divCurrentTemp.innerText = `${weatherData.current.temp}° F`;
+    let currentTemp = Math.round(weatherData.current.temp);
+    divCurrentTemp.innerText = `${currentTemp}° F`;
     divWeatherDescription.innerText = `${weatherData.current.weather[0].description}`;
     let unixTimestamp = weatherData.hourly[0].dt;
     console.log(unixTimestamp);
