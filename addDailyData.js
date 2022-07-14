@@ -1,4 +1,4 @@
-import { assignDay } from "assignDay.js";
+import { assignDay } from "/assignDay.js";
 
 
 export function addDailyCards(weatherData) {

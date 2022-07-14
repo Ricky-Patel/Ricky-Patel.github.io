@@ -1,6 +1,6 @@
-import { addDailyCards } from "addDailyData.js";
-import { addHourlyCards } from "addHourlyData.js";
-import { addCurrentData } from "addCurrentData.js";
+import { addDailyCards } from "/addDailyData.js";
+import { addHourlyCards } from "/addHourlyData.js";
+import { addCurrentData } from "/addCurrentData.js";
 // import { getLocation } from "./getUserLocation.js"; not sure if needed
 
 const myAPIKey = config.myAPIKey;
