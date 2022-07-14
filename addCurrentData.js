@@ -1,4 +1,4 @@
-import { assignDay } from "./assignDay.js";
+import { assignDay } from "assignDay.js";
 
 export function addCurrentData(weatherData, city, stateCode, userAddress) {
     const currentDate = document.getElementById("date");
